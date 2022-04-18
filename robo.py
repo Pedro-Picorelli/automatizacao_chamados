@@ -12,8 +12,8 @@ def fechar_popup():
 
 #realiza o login no site da netview
 def login():
-    navegador.find_element(by='id', value='Login').send_keys('pedro.picorelli@ferreiraechagas.com.br')
-    navegador.find_element(by='id', value='Senha').send_keys('Ppedro@66k')
+    navegador.find_element(by='id', value='Login').send_keys('*****')
+    navegador.find_element(by='id', value='Senha').send_keys('****')
     navegador.find_element(by='xpath', value='//*[@id="frmLogin"]/div[4]/button').click()
 
 
