@@ -25,13 +25,13 @@ def abrir_site(navegador):
     navegador.get('https://suporte.netviewinformatica.com.br/Suporte/Home')
 #realiza o login no site da netview
 def login(navegador):
-    navegador.find_element(by='id', value='Login').send_keys('pedro.picorelli@ferreiraechagas.com.br')
-    navegador.find_element(by='id', value='Senha').send_keys('Ppedro@66k')
+    navegador.find_element(by='id', value='Login').send_keys('login@ferreiraechagas.com.br')
+    navegador.find_element(by='id', value='Senha').send_keys('*****')
     navegador.find_element(by='xpath', value='//*[@id="frmLogin"]/div[4]/button').click()
     fechar_popup(navegador)
 def loginFF(navegador):
-    navegador.find_element(by='id', value='Login').send_keys('carolina.libano@ferreiraechagas.com.br')
-    navegador.find_element(by='id', value='Senha').send_keys('2244')
+    navegador.find_element(by='id', value='Login').send_keys('loginFF@ferreiraechagas.com.br')
+    navegador.find_element(by='id', value='Senha').send_keys('*****')
     navegador.find_element(by='xpath', value='//*[@id="frmLogin"]/div[4]/button').click()
     fechar_popup(navegador)
 #fecha o popup de diligência
